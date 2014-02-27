@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my-ng-boilerplate</title>
+
+    <!-- Modernizr -->
+    <script type="text/javascript" src="js/jsHead.js"></script>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body ng-app="app">
+    <!-- Header/Main Navigation -->
+    <header ng-include="'common/nav.tpl.html'"></header>
+    <!-- End Header/Main Navigation -->
+
+    <!-- Main section of site -->
+    <main ui-view="main"></main>
+    <!-- End main section of site -->
+
+    <!-- Footer section of site -->
+    <footer ng-include="'common/footer.tpl.html'"></footer>
+    <!-- End footer section of site -->
+
+    <!-- Angular and other lib files -->
+    <script type="text/javascript" src="js/libs.js"></script>
+
+    <!-- App js file -->
+    <script type="text/javascript" src="js/<%= grunt.config.get('pkg.name') %>.js"></script>
+</body>
+</html>

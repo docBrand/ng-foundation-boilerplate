@@ -1,0 +1,11 @@
+{
+  "name": "my-ng-boilerplate",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "latest",
+    "angular-mocks": "~1.2.14",
+    "foundation": "~5.1.1",
+    "angular-ui-router": "0.2.8-bowratic-tedium"
+  }
+}

@@ -1,0 +1,20 @@
+/*
+  This is the main application stylesheet. It should include or import
+  all stylesheets used throughout the application as this is the only
+  stylesheet in the Grunt configuration that is automatically processed.
+
+  This will bring in all of foundation's components. If you don't need
+  all of them go into ./vendor/foundation/scss/_foundation.scss and
+  comment out the ones you don't need. This will make the css file smaller
+  and load faster.
+*/
+
+/*
+  First we import the Foundation css framework.
+*/
+@import '../../vendor/foundation/scss/normalize';
+@import '../../vendor/foundation/scss/foundation/functions';
+@import '../../vendor/foundation/scss/foundation/settings';
+@import '../../vendor/foundation/scss/foundation';
+
+
